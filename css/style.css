@@ -32,6 +32,7 @@ body {
   max-width: 100%;
   display: grid;
   grid-template-columns: 0px 55% 45%;
+
   overflow-y: hidden;
 }
 
@@ -174,7 +175,7 @@ form button img {
   }
 
   .texto li:nth-child(3) {
-    font-size: 1em;
+    font-size: 1.125em;
     padding: 16px 0px;
     max-width: 300px;
     margin: 0 auto;
