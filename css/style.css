@@ -97,7 +97,8 @@ form {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 32px;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 form input {
@@ -160,7 +161,7 @@ form button img {
   }
 
   .texto li:nth-child(1) {
-    padding-top: 4em;
+    padding-top: 2em;
     font-size: 3em;
     max-width: 300px;
     letter-spacing: 10px;
