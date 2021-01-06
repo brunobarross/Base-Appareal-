@@ -161,7 +161,7 @@ form button img {
   }
 
   .texto li:nth-child(1) {
-    padding-top: 2em;
+    padding-top: 2.5rem;
     font-size: 3em;
     max-width: 300px;
     letter-spacing: 10px;
