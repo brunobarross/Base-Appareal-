@@ -31,7 +31,7 @@ body {
   min-height: 100vh;
   max-width: 100%;
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 0 55% 45%;
   overflow-y: hidden;
 }
 
@@ -48,7 +48,7 @@ body {
 
 .logo {
   width: 200px;
-  padding: 64px 0 128px 0;
+  padding: 64px 0 192px 0;
   margin-left: 10px;
 }
 
@@ -132,7 +132,7 @@ form button img {
 @media (max-width: 739px) {
   .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 250px 2fr;
+    grid-template-rows: auto 250px 2fr;
   }
 
   .direita {
@@ -145,10 +145,13 @@ form button img {
     order: 2;
   }
 
+  .logo-mobile {
+    padding: 32px 0px 32px 32px;
+    width: 150px;
+  }
+
   .logo {
-    max-width: 100%;
-    padding: 32px 0px 64px 0px;
-    margin: 0 auto;
+    display: none;
   }
 
   .texto {
@@ -156,6 +159,7 @@ form button img {
   }
 
   .texto li:nth-child(1) {
+    padding-top: 64px;
     font-size: 3em;
     max-width: 300px;
     letter-spacing: 10px;
@@ -180,7 +184,7 @@ form button img {
 
   form {
     margin-top: 16px;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
   }
   form input {
     padding: 20px 40px 20px 20px;
