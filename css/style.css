@@ -49,7 +49,7 @@ body {
 
 .logo {
   width: 200px;
-  padding: 64px 0 192px 0;
+  padding: 4em 0 8em 0;
   margin-left: 10px;
 }
 
@@ -147,7 +147,7 @@ form button img {
   }
 
   .logo-mobile {
-    padding: 32px 0px 32px 32px;
+    padding: 2em 0px 2em 2em;
     width: 150px;
   }
 
@@ -160,7 +160,7 @@ form button img {
   }
 
   .texto li:nth-child(1) {
-    padding-top: 64px;
+    padding-top: 4em;
     font-size: 3em;
     max-width: 300px;
     letter-spacing: 10px;
@@ -184,8 +184,8 @@ form button img {
   }
 
   form {
-    margin-top: 16px;
-    margin-bottom: 64px;
+    margin-top: 1em;
+    margin-bottom: 4em;
   }
   form input {
     padding: 20px 40px 20px 20px;
