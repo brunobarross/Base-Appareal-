@@ -63,7 +63,7 @@ body {
   font-size: 4em;
   font-weight: 300;
   max-width: 400px;
-  letter-spacing: 20px;
+  letter-spacing: 10px;
   color: var(--desaturated-red);
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 .direita {
-  background-image: url("../img/hero-desktop.jpg");
+  background-image: url("../img/aleksandra-besedina-GCPOm_hcIuw-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -136,7 +136,7 @@ form button img {
   }
 
   .direita {
-    background-image: url("../img/hero-mobile.jpg");
+    background-image: url("../img/hero-mobile-2.png");
     background-size: cover;
     order: 1;
   }
@@ -159,12 +159,14 @@ form button img {
     font-size: 3em;
     max-width: 300px;
     letter-spacing: 10px;
+    margin-left: 0;
   }
 
   .texto li:nth-child(2) {
     font-size: 3em;
     max-width: 300px;
     letter-spacing: 10px;
+    margin-left: 0;
   }
 
   .texto li:nth-child(3) {
@@ -173,11 +175,12 @@ form button img {
     max-width: 300px;
     margin: 0 auto;
     color: var(--desaturated-red);
+    margin-left: 0;
   }
 
   form {
     margin-top: 16px;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
   }
   form input {
     padding: 20px 40px 20px 20px;
@@ -188,6 +191,7 @@ form button img {
     border-radius: 50px;
     outline: 0;
     position: absolute;
+    margin: 0 auto;
   }
 
   ::-webkit-input-placeholder {
@@ -214,6 +218,6 @@ form button img {
     padding: 16px 20px;
     outline: 0;
     border: 0;
-    left: 227px;
+    left: 207px;
   }
 }
